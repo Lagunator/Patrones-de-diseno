@@ -7,9 +7,9 @@ public class PasajeSolidarioCreator extends CreatorPasaje{
         pasaje.setNumeroVuelo(5);
 
         Destino destino = new Destino();
-        destino.setAirport("Franco");
-        destino.setCity("Rio de Janeiro");
-        destino.setCountry("Brazil");
+        destino.setAirport("Che Guevara");
+        destino.setCity("Buenos Aires");
+        destino.setCountry("Argentina");
         pasaje.setDestino(destino);
 
         Origen origen = new Origen();
@@ -19,20 +19,20 @@ public class PasajeSolidarioCreator extends CreatorPasaje{
         pasaje.setOrigen(origen);
 
         Avion avion = new Avion();
-        avion.setCapacity("300 personas");
-        avion.setBrand("AirPlane");
-        avion.setModelo("F23");
-        avion.setNumberSeats("300 asientos");
+        avion.setCapacity("150 personas");
+        avion.setBrand("Boing");
+        avion.setModelo("F27");
+        avion.setNumberSeats("180 asientos");
         pasaje.setAvion(avion);
 
         Pasajero pasajero = new Pasajero();
-        pasajero.setName("Juan");
-        pasajero.setId("789415");
+        pasajero.setName("Gerardo");
+        pasajero.setId("785517");
         pasaje.setPasajero(pasajero);
 
-        pasaje.setNumeroAsiento(52);
-        pasaje.setCostoPasaje("200 Bs");
-        pasaje.setDescuento("25%");
+        pasaje.setNumeroAsiento(32);
+        pasaje.setCostoPasaje("2000 Bs");
+        pasaje.setDescuento("15%");
         pasaje.setMotivoDescuento("Apoyo economico");
 
         return pasaje;
